@@ -15,12 +15,12 @@ class Edificio{
 
 		//contructor simple
 		Edificio();
-		//setters and getters
-		int getPersonaPiso();
+		//setters and getters	
 		void setPersonaPiso(int);
-		//
-		int getCantidadPisos();
+		int getPersonaPiso();
+		//	
 		void setCantidadPisos(int);
+		int getCantidadPisos();
 
 		~Edificio();
 

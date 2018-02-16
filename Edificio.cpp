@@ -1,5 +1,5 @@
 #include <iostream>
-#define "Edificio.h"
+#include "Edificio.h"
 
 using namespace std;
 
@@ -7,19 +7,19 @@ Edificio::Edificio(){
 
 }
 Edificio::Edificio(int pisos, int personas){
-	this -> pisos= pisos;
-	this -> personas = personas;
+	this-> personaPiso = personas;
+	this-> cantidadPisos = pisos;
 }
 
-void Edificio::setPersonaPisos(int pisos){
-	this -> pisos= pisos;
+void Edificio::setPersonaPiso(int persona){
+	personaPiso= persona;
 }
-int Edificio::getPersoanPisos(){
-	return pisos;
+int Edificio::getPersonaPiso(){
+	return personaPiso;
 }
-void Edificio::setCantidadPisos(int persona){
-	this -> persona = persona;
+void Edificio::setCantidadPisos(int pisos){
+	 cantidadPisos= pisos;
 }
 int Edificio::getCantidadPisos(){
-	return persona;
+	return cantidadPisos;
 }

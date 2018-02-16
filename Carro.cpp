@@ -8,16 +8,30 @@ Carro::Carro(){
 }
 
 Carro::Carro(string pMarca, string pCarro, int pAltura){
-	this -> pMarca = pMarca;
-	this -> pCarro = pCarro;
-	this -> pAltura = pAltura;
+	this -> marca = pMarca;
+	this -> carro = pCarro;
+	this -> altura= pAltura;
 }
 
-void Alumno:: setMarca(string pMarca){
-	this-> pMarca = pMarca;
+void Carro:: setMarca(string pMarca){
+	marca = pMarca;
 }
-string Alumno::getMarca(){
-	return pMarca;
+string Carro::getMarca(){
+	return marca;
+}
+
+void Carro:: setCarro(string pCarro){
+	carro = pCarro;
+}
+string Carro::getCarro(){
+	return carro;
+}
+
+void Carro:: setAltura(int pAltura){
+	altura= pAltura;
+}
+int Carro::getAltura(){
+	return altura;
 }
 
 

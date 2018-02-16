@@ -1,7 +1,6 @@
 #ifndef PARQUEO_H
 #define PARQUEO_H
 #include <string>
-#include "Carro.h"
 
 using namespace std;
 
@@ -11,16 +10,15 @@ class Parqueo{
 		int m;
 		int z;
 		double altura;
-		Carro**** matrizThreeDimen;
 	public:
 		Parqueo();
-		Parqueo(int, int, double);
+		Parqueo(int, int,double);
 
-		void setCapacidad(int);
-		int getCapacidad();
+		void setN(int);
+		int getN();
 		
-		void setPisosZ(int);
-		int getPisosZ();
+		void setM(int);
+		int getM();
 
 		void setAltura(double);
 		double getAltura();

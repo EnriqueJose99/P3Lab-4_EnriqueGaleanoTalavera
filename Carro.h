@@ -18,9 +18,9 @@ class Carro{
 		string getMarca();
 
 		void setCarro(string);
-		string getCarro;
+		string getCarro();
 
-	void setAltura(int);
+		void setAltura(int);
 		int getAltura();
 
 		~Carro();
