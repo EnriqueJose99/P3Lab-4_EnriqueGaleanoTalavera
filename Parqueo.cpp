@@ -1,7 +1,10 @@
 #include <iostream>
 #include "Parqueo.h"
+#include "Carro.h"
 
 using namespace std;
+
+
 
 Parqueo::Parqueo(){
 
@@ -18,15 +21,23 @@ Parqueo::Parqueo(int capacidad, int pisos, double altura){
 	}
 	z = pisos;
 	matrizThreeDimen = new Carro***[capacidad];
-	for(int i=0;i<10;i++){
+	for(int i=0;i<capacidad;i++){
 		matrizThreeDimen[i] =new Carro**[pisos];
-		for(int j=0;j<10;j++){
+		for(int j=0;j<pisos;j++){
 			matrizThreeDimen[i][j] = new Carro*[z];
-			for(int k=0;k<10;k++){
+			for(int k=0;k<z;k++){
 				matrizThreeDimen[i][j][k] = NULL;
 			}
 		}
 	}
+}
+
+void Parqueo::parquear(Carro* carro1){
+	int pisoParqueo = 0;
+	cout<<"Ingrese el donde quiere parquear: "<<endl;
+	cin>> pisoParqueo;
+
+
 }
 
 void Parqueo:: setAltura(double pAltura){
