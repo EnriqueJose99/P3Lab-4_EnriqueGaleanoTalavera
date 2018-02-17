@@ -23,7 +23,7 @@ int main(){
 	cin>>alturaParqueo;
 	Edificio* edificio = new Edificio(cantidadPisos, capacidadPersonas);
 	Parqueo* parqueo = new Parqueo(edificio->getPersonaPiso(), edificio->getCantidadPisos(), alturaParqueo);
-	while(op!=5){
+	while(op!=4){
 		switch(op = menu()){
 			case 1:{
 					   string Color;
@@ -55,7 +55,8 @@ int main(){
 					   break;
 				   }
 			case 4:{
-					   
+					  
+					   cout<<"Adios :)";
 					   break;
 				   }
 				   
