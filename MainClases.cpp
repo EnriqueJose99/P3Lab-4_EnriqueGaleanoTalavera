@@ -47,7 +47,7 @@ int main(){
 					   break;
 				   }
 			case 2:{
-					   cout<<"No se elimina";
+					   cout<<"No se elimina"<<endl;
 					   break;
 				   }
 			case 3:{
@@ -56,7 +56,7 @@ int main(){
 				   }
 			case 4:{
 					  
-					   cout<<"Adios :)";
+					   cout<<"Adios :)"<<endl;
 					   break;
 				   }
 				   
