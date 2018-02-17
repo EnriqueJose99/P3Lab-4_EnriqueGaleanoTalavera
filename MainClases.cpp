@@ -47,6 +47,15 @@ int main(){
 					   break;
 				   }
 			case 2:{
+					   cout<<"No se elimina";
+					   break;
+				   }
+			case 3:{
+					   parqueo->listar();
+					   break;
+				   }
+			case 4:{
+					   
 					   break;
 				   }
 				   
@@ -66,6 +75,7 @@ int menu(){
 		cout<<"1. Crea el Carro"<<endl;
 		cout<<"2. Elimine el carro"<<endl;
 		cout<<"3. Listar los parqueos"<<endl;
+		cout<<"4.Salir"<<endl;
 		cout<<"Ingrese donde quiere ingresar: "<<endl;
 		cin>>menuE;
 		return menuE;

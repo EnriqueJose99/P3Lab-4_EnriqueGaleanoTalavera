@@ -23,6 +23,6 @@ class Carro{
 		void setAltura(int);
 		int getAltura();
 
-		~Carro();
+	//	~Carro();
 };
 #endif

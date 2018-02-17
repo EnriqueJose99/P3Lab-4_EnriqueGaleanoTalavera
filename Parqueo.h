@@ -15,7 +15,9 @@ class Parqueo{
 	public:
 		Parqueo();
 		Parqueo(int, int, double);
+		void eliminarParqueo();
 		void parquear(Carro*);
+		void listar();
 
 
 		void setCapacidad(int);
